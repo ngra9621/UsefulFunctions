@@ -48,3 +48,33 @@ print_function <- function(input = TRUE) {
 }
 
 
+
+
+
+
+
+
+#' print function 2
+#'
+#' @param input takes a number either 1 or 2 or other
+#'
+#' @return prints some text
+#' @export
+#'
+#' @examples print_function_2(1)
+#' @examples print_function_2(input = 2)
+#'
+#'
+#'
+print_function_2 <- function(input) {
+  if(input == 1) {
+    print("the input was 1")
+  } else if(input == 2) {
+    print("the input was 2")
+  } else {
+    print("the input was something else")
+  }
+}
+
+
+
