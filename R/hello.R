@@ -24,7 +24,7 @@ hello <- function() {
 #'
 #' @param input This is the input, it accepts true or false values
 #'
-#' @return
+#' @return prints some text
 #' @export
 #'
 #' @examples print_function(input = TRUE)
